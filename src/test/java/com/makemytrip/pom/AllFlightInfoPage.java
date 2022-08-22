@@ -25,6 +25,9 @@ public class AllFlightInfoPage extends BaseClass {
 	private List<WebElement> deptTime;
 	
 	
+	
+	
+	
 
 	@FindBy(xpath = "(//div[@class='paneView'])[1]//*[contains(@id,'flightCard')]/div/div[2]/div[1]/div[2]/p")
 	private List<WebElement> duration;
